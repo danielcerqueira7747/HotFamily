@@ -1,0 +1,18 @@
+.navbar-container {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

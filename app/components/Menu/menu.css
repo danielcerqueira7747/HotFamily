@@ -1,0 +1,15 @@
+
+.menu-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+}
+
+@media (max-width: 768px) {
+  .menu-card {
+    margin: 0 auto;
+    width: 95%;
+  }
+}

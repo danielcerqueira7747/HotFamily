@@ -1,0 +1,15 @@
+.delivery-btn {
+  background: linear-gradient(135deg, #ff6a00, #ff9100);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(255, 107, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.delivery-btn:hover {
+  box-shadow: 0 8px 25px rgba(255, 107, 0, 0.6);
+}
