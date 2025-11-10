@@ -18,11 +18,11 @@ export default function DeliveryButton() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.3, duration: 0.6 }}
       >
-        Olá, que tal um lanche agora?
+        Olá, que tal pedir um lanche no ifood?
       </motion.div>
 
       <motion.a
-        href="https://instadelivery.com.br/hotfamily"
+        href="https://www.ifood.com.br/delivery/praia-grande-sp/hot-family-burguer--hot-dog-vila-tupi"
         target="_blank"
         rel="noopener noreferrer"
         className="delivery-btn"

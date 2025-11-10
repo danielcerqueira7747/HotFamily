@@ -1,0 +1,11 @@
+.rating-section {
+  scroll-margin-top: 5rem;
+}
+
+.rating-section img {
+  transition: transform 0.4s ease;
+}
+
+.rating-section img:hover {
+  transform: scale(1.08);
+}

@@ -10,6 +10,7 @@ import Topbar from "./components/Topbar/topbar";
 import Schedules from "./components/Schedules/schedules";
 import DeliveryButton from "./components/DeliveryButton/deliveryButton";
 import CallToAction from './components/CallToAction/CallToAction'
+import Rating from "./components/Rating/rating";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
         <Hero />
         <Menu />
+        <Rating />
         <Schedules />
         <CallToAction />
         <Location />
