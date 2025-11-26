@@ -10,11 +10,12 @@ export default function Hero() {
     <section className="relative flex flex-col items-center justify-center min-h-screen px-6 text-white overflow-hidden bg-gradient-to-b from-zinc-950 to-black text-center">
 
       <motion.div
-        initial={{ opacity: 0, y: 60 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className="z-10 max-w-3xl"
-      >
+          initial={{ opacity: 0, y: 60 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="z-10 max-w-3xl mb-20"
+        >
+
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight font-[var(--font-bebas)] leading-tight">
           O MELHOR <span className="text-orange-500">SABOR</span> DA CIDADE
         </h1>
@@ -50,7 +51,7 @@ export default function Hero() {
           duration: 4,
           ease: "easeInOut",
         }}
-        className="relative w-full max-w-5xl mt-12 z-20 flex justify-center overflow-visible"
+        className="relative w-full max-w-5xl mt-20 z-20 flex justify-center overflow-visible"
       >
         <div className="relative w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%]">
           <Image

@@ -33,7 +33,7 @@ export default function CallToAction() {
             asChild
             className="bg-black hover:bg-zinc-900 text-white text-lg px-8 py-6 rounded-full shadow-lg shadow-black/40 font-[var(--font-inter)] transition-all"
           >
-            <a href="https://www.ifood.com.br/delivery/praia-grande-sp/hot-family-burguer--hot-dog-vila-tupi/365b7883-9862-49c6-8f01-2c55eb18c23a?UTM_Medium=share" target="_blank" className="inline-flex items-center gap-3">
+            <a href="https://instadelivery.com.br/hotfamily" target="_blank" className="inline-flex items-center gap-3">
               Fazer Pedido Agora
               <ArrowRight size={22} />
             </a>
