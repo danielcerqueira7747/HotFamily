@@ -22,7 +22,7 @@ export default function DeliveryButton() {
       </motion.div>
 
       <motion.a
-        href="https://www.ifood.com.br/delivery/praia-grande-sp/hot-family-burguer--hot-dog-vila-tupi"
+        href="https://www.ifood.com.br/delivery/praia-grande-sp/hot-family-burguer--hot-dog-vila-tupi/365b7883-9862-49c6-8f01-2c55eb18c23a?UTM_Medium=share"
         target="_blank"
         rel="noopener noreferrer"
         className="delivery-btn"
